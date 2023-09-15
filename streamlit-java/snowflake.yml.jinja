@@ -1,0 +1,20 @@
+# This is a project definition file, a required component of the Snowflake Native Apps Project.
+# DO NOT delete this file if you intend to use snowCLI with this project.  
+
+definition_version: 1
+native_app:
+  name: {{project_name}}
+  source_stage: app_src.stage
+  artifacts:
+    - src: app/*
+      dest: ./
+    - src: src/module-add/target/add-1.0-SNAPSHOT.jar
+      dest: module-add/add-1.0-SNAPSHOT.jar
+    - src: src/module-ui/src/*
+      dest: streamlit/
+
+# If you added any sql scripts under scripts/, you should add the following snippet after `artifacts` under `native_app`.          
+#  package:
+#    scripts:
+#    - scripts/any-provider-setup.sql
+#    - scripts/shared-content.sql
