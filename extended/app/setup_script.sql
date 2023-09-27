@@ -2,7 +2,7 @@
 -- For more information on how to create setup file, visit https://docs.snowflake.com/en/developer-guide/native-apps/creating-setup-script
 
 CREATE APPLICATION ROLE app_public;
-CREATE SCHEMA IF NOT EXISTS core;
+CREATE OR ALTER VERSIONED SCHEMA core;
 GRANT USAGE ON SCHEMA core TO APPLICATION ROLE app_public;
 
 CREATE or REPLACE FUNCTION core.add(num1 NUMBER, num2 NUMBER)
@@ -14,7 +14,7 @@ CREATE or REPLACE FUNCTION core.add(num1 NUMBER, num2 NUMBER)
 GRANT USAGE ON FUNCTION core.add(NUMBER, NUMBER) TO APPLICATION ROLE app_public;
 
 CREATE STREAMLIT core.add
-     FROM '/module-ui/'
+     FROM '/streamlit/'
      MAIN_FILE = 'ui.py';
 
 GRANT USAGE ON STREAMLIT core.add TO APPLICATION ROLE app_public;

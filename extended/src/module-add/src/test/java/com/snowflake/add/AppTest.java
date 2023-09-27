@@ -10,6 +10,6 @@ import org.junit.Test;
 public class AppTest {
     @Test
     public void shouldAnswerWithTrue() {
-        assertTrue(true);
+        assertTrue(Add.two(1, 2) == 3);
     }
 }

@@ -1,6 +1,0 @@
-snowflake.local.yml
-output/**
-scripts/misc.sql
-.DS_Store
-src/module-add/target
-

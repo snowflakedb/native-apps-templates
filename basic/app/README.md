@@ -10,13 +10,11 @@ To interact with the application after it has successfully installed in your acc
 ### Calling a stored procedure
 
 ```
-CALL {{application_name}}.versioned_schema.area_of_square_sproc(2);
+CALL <your_application_name>.<schema_name>.<stored_procedure_name_with_args>;
 ```
-which should output 4
 
 ### Calling a function
 
 ```
-SELECT {{application_name}}.versioned_schema.hello_world();
+SELECT <your_application_name>.<schema_name>.<udf_with_args>;
 ```
-which should output 'hello world!'
