@@ -1,1 +1,0 @@
--- script to share your data with consumer
