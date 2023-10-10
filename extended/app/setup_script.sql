@@ -9,7 +9,7 @@ CREATE or REPLACE FUNCTION core.add(num1 NUMBER, num2 NUMBER)
   RETURNS NUMBER
   LANGUAGE JAVA
   IMPORTS = ('/module-add/add-1.0-SNAPSHOT.jar')
-  HANDLER='Add.two';
+  HANDLER='com.snowflake.add.Add.two';
 
 GRANT USAGE ON FUNCTION core.add(NUMBER, NUMBER) TO APPLICATION ROLE app_public;
 
