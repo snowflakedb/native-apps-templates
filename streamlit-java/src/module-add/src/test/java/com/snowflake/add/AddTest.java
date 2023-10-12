@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-public class AppTest {
+public class AddTest {
     @Test
     public void shouldAnswerWithTrue() {
         assertTrue(Add.two(1, 2) == 3);

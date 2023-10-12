@@ -12,3 +12,9 @@ native_app:
       dest: module-add/add-1.0-SNAPSHOT.jar
     - src: src/module-ui/src/*
       dest: streamlit/
+
+# If you added any sql scripts under scripts/, you should add the following snippet after `artifacts` under `native_app`.          
+#  package:
+#    scripts:
+#    - scripts/any-provider-setup.sql
+#    - scripts/shared-content.sql

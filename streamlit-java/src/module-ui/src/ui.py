@@ -11,7 +11,6 @@ st.write("""
 
 num1 = st.number_input('First number', value=1)
 num2 = st.number_input('Second number', value=1)
-
 # Get the current credentials
 session = get_active_session()
 
