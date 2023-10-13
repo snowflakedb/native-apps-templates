@@ -9,5 +9,5 @@ version:
 artifacts:
   setup_script: setup_script.sql
   readme: README.md
-  default_streamlit: core.add
+  default_streamlit: core.ui
   extension_code: true 

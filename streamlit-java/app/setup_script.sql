@@ -21,12 +21,12 @@ GRANT USAGE ON FUNCTION core.add(NUMBER, NUMBER) TO APPLICATION ROLE app_public;
 
 -- 5. Create a streamlit object using the code you wrote in you wrote in src/module-ui, as shown below. 
 -- The `from` value is derived from the stage path described in snowflake.yml
-CREATE STREAMLIT core.add
+CREATE STREAMLIT core.ui
      FROM '/streamlit/'
      MAIN_FILE = 'ui.py';
 
 
 -- 6. Grant appropriate privileges over these objects to your application roles. 
-GRANT USAGE ON STREAMLIT core.add TO APPLICATION ROLE app_public;
+GRANT USAGE ON STREAMLIT core.ui TO APPLICATION ROLE app_public;
 
 -- A detailed explanation can be found at https://docs.snowflake.com/en/developer-guide/native-apps/adding-streamlit 
