@@ -1,0 +1,6 @@
+point_of_contact: @snowflakedb/nade
+production: true
+code_owners_file_present: true
+release_branches:
+  - main
+jira_area: Native Apps
