@@ -3,7 +3,7 @@
 
 -- A general guideline to building this script looks like:
 -- 1. Create application roles
-CREATE APPLICATION ROLE app_public;
+CREATE APPLICATION ROLE IF NOT EXISTS app_public;
 
 -- 2. Create a versioned schema to hold those UDFs/Stored Procedures
 CREATE OR ALTER VERSIONED SCHEMA core;
