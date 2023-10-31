@@ -5,7 +5,7 @@ from snowflake.snowpark.context import get_active_session
 # Write directly to the app
 st.title("Hello Snowflake!")
 st.write(
-   """The sum of the two numbers are calculated by the Java Add.two() function
+   """The sum of the two numbers is calculated by the Python add_fn() function
       which is called from core.add() UDF defined in your setup_script.sql.
    """)
 
