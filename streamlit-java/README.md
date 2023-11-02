@@ -2,7 +2,6 @@
 
 This is an example template for a Snowflake Native Apps project which demonstrates the use of Java extension code and adding Streamlit code. This template is meant to guide developers towards a possible project structure on the basis on functionality, as well as indicate the contents of some common and useful files. 
 
-You cannot use this template as-is to create an application package and install an application. Please read below to understand the required intermediate steps.
 
 # How to build/test this template
 ## Build the jar
@@ -21,7 +20,7 @@ Create or update an Application Package in your Snowflake account, upload applic
 snow app run
 ```
 
-Please refer to the online Snowflake Documentation on using SnowCLI to create Native Applications for more information on this. 
+For more information, please refer to the Snowflake Documentation on installing and using SnowCLI to create Native Applications.  
 
 # Directory Structure
 ## `/app`
@@ -62,9 +61,9 @@ This directory contains code organization by functionality, such as one distinct
 ## `snowflake.yml.jinja`
 While this file exists as a Jinja template, it is the only file that will be automatically rendered as a `snowflake.yml` file by the `snow app init` command, as described in the [README.md](../README.md). `snowflake.yml` is used by the snowCLI tool to discover your project's code and interact with snowflake with all relevant permissions and grants. Below are some of the configuration keys that you can use in `snowflake.yml` file. 
 
-Please refer to the online Snowflake Documentation on using SnowCLI to create Native Applications for more information on this. 
+For more information, please refer to the Snowflake Documentation on installing and using SnowCLI to create Native Applications. 
 
 ## Adding a snowflake.local.yml file
 Though your project directory must have a `snowflake.yml` file, an individual developer can choose to customize the behavior of the snowCLI by providing local overrides to `snowflake.yml`, such as a new role to test out your own application package. This is where you can use `snowflake.local.yml`, which is not a version-controlled file.
 
-Please refer to the online Snowflake Documentation on using SnowCLI to create Native Applications for more information on this. 
+For more information, please refer to the Snowflake Documentation on installing and using SnowCLI to create Native Applications. 

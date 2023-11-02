@@ -14,4 +14,4 @@ This is the basic project template for a Snowflake Native Apps project. It conta
 ### Adding a snowflake.local.yml file
 Though your project directory already comes with a `snowflake.yml` file, an individual developer can choose to customize the behavior of the snowCLI by providing local overrides to `snowflake.yml`, such as a new role to test out your own application package. This is where you can use `snowflake.local.yml`, which is not a version-controlled file.
 
-Please refer to the online Snowflake Documentation on using SnowCLI to create Native Applications for more information on this. 
+For more information, please refer to the Snowflake Documentation on installing and using SnowCLI to create Native Applications. 

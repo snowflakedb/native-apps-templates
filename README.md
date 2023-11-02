@@ -21,9 +21,9 @@ There are two ways you can use the templates provided in this repository.
 
 1. Using SnowCLI (recommended)
 
-    Please refer to the online Snowflake Documentation on installing and using SnowCLI to create Native Applications for more information. 
+    For more information, please refer to the Snowflake Documentation on installing and using SnowCLI to create Native Applications. 
     
-    Assuming you have everything set up, run the following command in your terminal.
+    Once SnowCLI is installed and configured, run the following command in your terminal.
     ```
     snow app init <project_name> [--template={basic|streamlit-python|streamlit-java}]
     ```
