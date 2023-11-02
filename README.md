@@ -1,4 +1,6 @@
 # Native Apps Templates
+**Note**: Snowflake CLI is in Private Preview (PrPr). For more information, you can contact a Snowflake sales representative.
+
 This repository contains templates released by Snowflake Inc for [Native App Framework](https://docs.snowflake.com/en/developer-guide/native-apps/native-apps-about).
 
 ## Available Templates
@@ -18,8 +20,10 @@ These templates are not an exhaustive list of use cases or possibilities that de
 There are two ways you can use the templates provided in this repository. 
 
 1. Using SnowCLI (recommended)
+
+    For more information, please refer to the Snowflake Documentation on installing and using SnowCLI to create Native Applications. 
     
-    Run the following command in your terminal.
+    Once SnowCLI is installed and configured, run the following command in your terminal.
     ```
     snow app init <project_name> [--template={basic|streamlit-python|streamlit-java}]
     ```
@@ -27,8 +31,6 @@ There are two ways you can use the templates provided in this repository.
     ```
     snow app init <project_name> [--template-repo=https://github.com/snowflakedb/native-apps-templates.git] [--template={basic|streamlit-python|streamlit-java}]
     ```
-
-    For more information on using `snow app`, or SnowCLI in general, refer to [SnowCli](https://github.com/Snowflake-Labs/snowcli/). 
 
 2. Using git clone
 
