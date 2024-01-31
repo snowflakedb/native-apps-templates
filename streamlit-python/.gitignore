@@ -1,2 +1,4 @@
 snowflake.local.yml
-output/**
+output/
+**/__pycache__/
+**/.pytest_cache/
