@@ -45,10 +45,12 @@ This directory contains code organization by functionality, such as one distinct
    |               |-python
    |                      |-add_test.py
    |
-   |module-ui
-   |        |-src
-   |            |-ui.py
-   |            |-environment.yml
+   |-module-ui
+   |         |-src
+   |             |-ui.py
+   |             |-environment.yml
+   |         |-test
+   |              |-test_ui.py
 ```
 
 ## `snowflake.yml.jinja`
@@ -60,3 +62,35 @@ For more information, please refer to the Snowflake Documentation on installing 
 Though your project directory must have a `snowflake.yml` file, an individual developer can choose to customize the behavior of the snowCLI by providing local overrides to `snowflake.yml`, such as a new role to test out your own application package. This is where you can use `snowflake.local.yml`, which is not a version-controlled file.
 
 For more information, please refer to the Snowflake Documentation on installing and using SnowCLI to create Native Applications. 
+
+## Unit tests
+To set up and run unit tests, please follow the steps below.
+
+### Set up testing conda environment (First Time setup)
+
+Go to the project's root directory where you can find `local_test_env.yml` and run the following command once to set up a conda environment with the correct packages. Please note that the version of test packages may differ from the version of packages in Snowflake, so you will need to be careful with any differences in behavior.
+
+```
+conda env create --file local_test_env.yml
+```
+
+This will create a conda environment with the name `streamlit-python-testing`.
+
+### Run unit tests
+To run unit tests, follow these steps:
+
+#### Activate conda environment
+You will need to activate this conda environment once per command line session:
+```
+conda activate streamlit-python-testing
+```
+To deactivate and use your current command line session for other tasks, run the following:
+```
+conda deactivate
+```
+#### Run Pytest
+To run the example tests provided, execute the following command from the project's root:
+```
+pytest
+```
+Note that there is a pytest.ini file specifying the location of the source code that we are testing.
