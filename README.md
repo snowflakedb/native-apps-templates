@@ -1,4 +1,4 @@
-# Native Apps Templates
+# Snowflake Native App Templates with Snowflake CLI
 **Note**: Snowflake CLI is in Private Preview (PrPr). For more information, you can contact a Snowflake sales representative.
 
 This repository contains [Snowflake Native App](https://docs.snowflake.com/en/developer-guide/native-apps/native-apps-about) templates released by Snowflake Inc. These templates are customized to work with Snowflake CLI. 
