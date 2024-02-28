@@ -2,12 +2,12 @@
 
 This is an example template for a Snowflake Native App project which demonstrates the use of Python extension code and adding Streamlit code. This template is meant to guide developers towards a possible project structure on the basis on functionality, as well as indicate the contents of some common and useful files. 
 
-Since this template contains python files only, you do not need to build the source code with any additional step. You can directly go to the next section. However, if there were any source code that needed to be built, you nned to manually perform the build steps here before proceeding to the next section. 
+Since this template contains python files only, you do not need to build the source code with any additional step. You can directly go to the next section. However, if there were any source code that needed to be built, you need to manually perform the build steps here before proceeding to the next section. 
 
 Similarly, you can also use your own build steps for any other languages supported by Snowflake that you wish to write your code in. For more information on supported languages, visit [docs](https://docs.snowflake.com/en/developer-guide/stored-procedures-vs-udfs#label-sp-udf-languages).
 
 ## Run the app
-Create or update an application package in your Snowflake account, upload application artifacts to a stage in the application package, and create or update an application object ub the same account based on the uploaded artifacts.
+Create or update an application package in your Snowflake account, upload application artifacts to a stage in the application package, and create or update an application object in the same account based on the uploaded artifacts.
 ```
 snow app run
 ```
@@ -55,12 +55,12 @@ This directory contains code organization by functionality, such as one distinct
 ## `snowflake.yml.jinja`
 While this file exists as a Jinja template, it is the only file that will be automatically rendered as a `snowflake.yml` file by the `snow app init` command, as described in the [README.md](../README.md). `snowflake.yml` is used by Snowflake CLI to discover your project's code and interact with snowflake with all relevant permissions and grants. 
 
-For more information, please refer to the Snowflake Documentation on installing and using Snowflake CLI to create a Native App. 
+For more information, please refer to the Snowflake Documentation on installing and using Snowflake CLI to create a Snowflake Native App. 
 
 ## Adding a snowflake.local.yml file
 Though your project directory must have a `snowflake.yml` file, an individual developer can choose to customize the behavior of Snowflake CLI by providing local overrides to `snowflake.yml`, such as a new role to test out your own application package. This is where you can use `snowflake.local.yml`, which is not a version-controlled file.
 
-For more information, please refer to the Snowflake Documentation on installing and using Snowflake CLI to create a Native App. 
+For more information, please refer to the Snowflake Documentation on installing and using Snowflake CLI to create a Snowflake Native App. 
 
 ## Unit tests
 To set up and run unit tests, please follow the steps below.
