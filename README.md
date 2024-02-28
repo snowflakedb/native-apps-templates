@@ -1,7 +1,7 @@
 # Native Apps Templates
 **Note**: Snowflake CLI is in Private Preview (PrPr). For more information, you can contact a Snowflake sales representative.
 
-This repository contains templates released by Snowflake Inc for [Native App Framework](https://docs.snowflake.com/en/developer-guide/native-apps/native-apps-about).
+This repository contains [Snowflake Native App](https://docs.snowflake.com/en/developer-guide/native-apps/native-apps-about) templates released by Snowflake Inc. These templates are customized to work with Snowflake CLI. 
 
 ## Available Templates
 There are three available templates in the current version of this repository:
@@ -9,21 +9,21 @@ There are three available templates in the current version of this repository:
 2. [streamlit-python](./streamlit-python/README.md)
 3. [streamlit-java](./streamlit-java/README.md)
 
-For a detailed understanding of the templates, please refer to the README.md that comes with each of the templates. 
+For a detailed understanding of the templates, please refer to the README.md within each template. 
 
 ### Note
-These templates are not an exhaustive list of use cases or possibilities that developers may want to explore when building Native Apps. 
+These templates are not an exhaustive list of use cases or possibilities that developers may want to explore when building their Snowflake Native App. 
 
 
 ## How to Use the Templates
 
 There are two ways you can use the templates provided in this repository. 
 
-1. Using SnowCLI (recommended)
+1. Using Snowflake CLI (recommended)
 
-    For more information, please refer to the Snowflake Documentation on installing and using SnowCLI to create Native Applications. 
+    For more information, please refer to the Snowflake Documentation on installing and using Snowflake CLI to create a Snowflake Native App. 
     
-    Once SnowCLI is installed and configured, run the following command in your terminal.
+    Once Snowflake CLI is installed and configured, run the following command in your terminal.
     ```
     snow app init <project_name> [--template={basic|streamlit-python|streamlit-java}]
     ```
@@ -34,4 +34,4 @@ There are two ways you can use the templates provided in this repository.
 
 2. Using git clone
 
-    You can also clone this repository manually and keep the template you would like to use. But as a note, any jinja files in this repository will not be rendered to their intended file type if using a simple git clone/no snowCLI. 
+    You can also clone this repository manually and keep the template you would like to use. But as a note, any jinja files in this repository will not be rendered to their intended file type if using this option. 
