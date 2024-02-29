@@ -1,4 +1,4 @@
--- This is the setup script that will run while installing your application instance in a consumer's account.
+-- This is the setup script that runs while installing a Snowflake Native App in a consumer account.
 -- For more information on how to create setup file, visit https://docs.snowflake.com/en/developer-guide/native-apps/creating-setup-script
 
 -- A general guideline to building this script looks like:
