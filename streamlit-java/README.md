@@ -59,7 +59,7 @@ This directory contains code organization by functionality, such as one distinct
 ```
 
 ## `snowflake.yml.jinja`
-While this file exists as a Jinja template, it is the only file that will be automatically rendered as a `snowflake.yml` file by the `snow app init` command, as described in the [README.md](../README.md). `snowflake.yml` is used by Snowflake CLI to discover your project's code and interact with snowflake with all relevant prvileges and grants.
+While this file exists as a Jinja template, it is the only file that will be automatically rendered as a `snowflake.yml` file by the `snow app init` command, as described in the [README.md](../README.md). `snowflake.yml` is used by Snowflake CLI to discover your project's code and interact with snowflake with all relevant privileges and grants.
 
 For more information, please refer to the Snowflake Documentation on installing and using Snowflake CLI to create a Snowflake Native App. 
 
