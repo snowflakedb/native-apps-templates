@@ -1,6 +1,6 @@
 ## Introduction
 
-This is an example template for a Snowflake Native App project which demonstrates the use of Java extension code and adding Streamlit code. This template is meant to guide developers towards a possible project structure on the basis on functionality, as well as indicate the contents of some common and useful files. 
+This is an example template for a Snowflake Native App project which demonstrates the use of Java extension code and adding Streamlit code. This template is meant to guide developers towards a possible project structure on the basis of functionality, as well as to indicate the contents of some common and useful files. 
 
 
 # How to build/test this template
@@ -59,7 +59,7 @@ This directory contains code organization by functionality, such as one distinct
 ```
 
 ## `snowflake.yml.jinja`
-While this file exists as a Jinja template, it is the only file that will be automatically rendered as a `snowflake.yml` file by the `snow app init` command, as described in the [README.md](../README.md). `snowflake.yml` is used by Snowflake CLI to discover your project's code and interact with snowflake with all relevant permissions and grants.
+While this file exists as a Jinja template, it is the only file that will be automatically rendered as a `snowflake.yml` file by the `snow app init` command, as described in the [README.md](../README.md). `snowflake.yml` is used by Snowflake CLI to discover your project's code and interact with snowflake with all relevant prvileges and grants.
 
 For more information, please refer to the Snowflake Documentation on installing and using Snowflake CLI to create a Snowflake Native App. 
 

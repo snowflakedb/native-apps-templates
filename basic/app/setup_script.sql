@@ -1,4 +1,4 @@
--- This is the setup script that will run while installing a Snowflake Native App in a consumer's account.
+-- This is the setup script that runs while installing a Snowflake Native App in a consumer account.
 -- To write this script, you can familiarize yourself with some of the following concepts:
 -- Application Roles
 -- Versioned Schemas
