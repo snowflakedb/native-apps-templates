@@ -3,3 +3,5 @@
 
 channels:
 - snowflake
+dependencies:
+- streamlit=1.22
