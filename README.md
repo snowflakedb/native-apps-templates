@@ -1,5 +1,5 @@
 # Snowflake Native App Templates with Snowflake CLI
-**Note**: Snowflake CLI is in Private Preview (PrPr). For more information, you can contact a Snowflake sales representative.
+**Note**: Snowflake CLI is in Public Preview (PuPr). You can find the official documentation [here](https://docs.snowflake.com/en/developer-guide/snowflake-cli-v2/index).
 
 This repository contains [Snowflake Native App](https://docs.snowflake.com/en/developer-guide/native-apps/native-apps-about) templates released by Snowflake Inc. These templates are customized to work with Snowflake CLI. 
 
@@ -21,7 +21,7 @@ There are two ways you can use the templates provided in this repository.
 
 1. Using Snowflake CLI (recommended)
 
-    For more information, please refer to the Snowflake Documentation on installing and using Snowflake CLI to create a Snowflake Native App. 
+    For more information, please refer to the [Snowflake CLI Documentation](https://docs.snowflake.com/en/developer-guide/snowflake-cli-v2/index) on installing and using Snowflake CLI to create a Snowflake Native App. 
     
     Once Snowflake CLI is installed and configured, run the following command in your terminal.
     ```
