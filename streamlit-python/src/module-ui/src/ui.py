@@ -4,8 +4,8 @@ def run_streamlit():
    # Streamlit app testing documentation: https://docs.streamlit.io/library/api-reference/app-testing
    import pandas as pd
    import streamlit as st
-   from snowflake.snowpark.context import get_active_session
    from snowflake.snowpark.functions import call_udf, col
+   from snowflake.snowpark import Session
 
    st.title('Hello Snowflake!')
 
@@ -18,7 +18,7 @@ def run_streamlit():
       """)
 
    # Get the current credentials
-   session = get_active_session()
+   session = Session.builder.getOrCreate()
 
    num1 = st.number_input('First number', key='numToAdd1', value=1)
    num2 = st.number_input('Second number', key='numToAdd2', value=1)
