@@ -1,0 +1,31 @@
+manifest_version: 1
+
+version:
+  name: v1
+  label: Version One
+
+configuration:
+  log_level: INFO
+  trace_level: ALWAYS
+  grant_callback: setup.create_service
+
+artifacts:
+  readme: README.md
+
+  default_web_endpoint:
+    service: services.spcs_na_service
+    endpoint: my-endpoint
+
+  setup_script: setup.sql
+
+  container_services:
+    images:
+      - /spcs_na_db/public/images/spcs_na_service:latest
+
+privileges:
+  - CREATE COMPUTE POOL:
+      required_at_setup: true
+      description: "Permission to create services + compute pools"
+  - BIND SERVICE ENDPOINT:
+      required_at_setup: true
+      description: "Required to create endpoints we can assign to functions and such"
