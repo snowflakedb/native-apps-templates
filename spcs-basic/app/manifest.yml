@@ -25,7 +25,7 @@ artifacts:
 privileges:
   - CREATE COMPUTE POOL:
       required_at_setup: true
-      description: "Permission to create services + compute pools"
+      description: "Permission to create compute pools"
   - BIND SERVICE ENDPOINT:
       required_at_setup: true
       description: "Required to create endpoints we can assign to functions and such"
