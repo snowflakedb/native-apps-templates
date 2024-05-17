@@ -6,7 +6,7 @@ We use your default connection to connect to Snowflake and deploy the images / a
 default connection in your `config.toml` or by exporting the following environment variable:
 
 ```sh
-export SNOWFLAKE_DEFAULT_CONNECTION_NAME=na_provider_consumer_qa6
+export SNOWFLAKE_DEFAULT_CONNECTION_NAME=<your connection name>
 ```
 
 ## Create image repository, build and push our local service image
