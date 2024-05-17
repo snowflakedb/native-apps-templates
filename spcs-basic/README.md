@@ -3,7 +3,7 @@
 ## Set your SnowCLI connection (optional)
 
 We use your default connection to connect to Snowflake and deploy the images / app. Set your
-default connection:
+default connection in your `config.toml` or by exporting the following environment variable:
 
 ```sh
 export SNOWFLAKE_DEFAULT_CONNECTION_NAME=na_provider_consumer_qa6
