@@ -42,7 +42,7 @@ Click on the `Grant` button to proceed.
 ## Activate the application
 
 Once privileges are granted, a new `Activate` button should appear. Click the button and wait until the application is fully activated.
-The `Activate` button invokes the `grant_callback` defined in the [manifest.yml](app/manifest.yml) file and creates the `COMPUTE POOL`s and `SERVICE`s needed to launch the application.
+The `Activate` button invokes the `grant_callback` defined in the [manifest.yml](app/manifest.yml) file, which then creates the `COMPUTE POOL` and `SERVICE` needed to launch the application.
 
 ## Launch the application
 
