@@ -64,7 +64,7 @@ Your service and compute pool is costing you money. Make sure to clean up.
 snow sql -q "call spcs_na_$USER.setup.drop_service_and_pool()"
 ```
 
-Optionally, you can remove the app + package altogether afterwards.
+Optionally, you can remove the app + package altogether afterwards:
 
 ```sh
 snow app teardown
