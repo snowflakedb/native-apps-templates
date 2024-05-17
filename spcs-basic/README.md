@@ -32,7 +32,7 @@ snow app run
 
 ## Setup the application
 
-When the application is opened for the first time, you need to grant some `Account Privileges`
+When the application is opened for the first time, you will be prompted to grant the following account-level privileges to it:
 
 - CREATE COMPUTE POOL
 - BIND SERVICE ENDPOINT
