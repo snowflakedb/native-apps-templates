@@ -28,4 +28,4 @@ privileges:
       description: "Permission to create compute pools"
   - BIND SERVICE ENDPOINT:
       required_at_setup: true
-      description: "Required to create endpoints we can assign to functions and such"
+      description: "Required to create endpoints in services we can assign to functions"
