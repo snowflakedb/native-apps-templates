@@ -1,4 +1,4 @@
-## Welcome to your First Native Application!
+## Welcome to your first Native Application using Snowpark Container Services!
 
 In this application, you will be able to explore some basic concepts such as application role, versioned schemas and creating procedures and functions within a setup script.
 
