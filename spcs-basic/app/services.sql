@@ -20,7 +20,7 @@ as $$
 
         create service if not exists services.spcs_na_service
             in compute pool identifier(:pool_name)
-            spec='service_spec.yml';
+            from spec='service_spec.yml';
 
         grant usage on service services.spcs_na_service
             to application role app_public;
