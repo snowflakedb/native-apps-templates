@@ -2,7 +2,7 @@
 DB_NAME="spcs_na_db"
 SCHEMA_NAME="public"
 IMAGE_REPO_NAME="images"
-SERVICE_NAME="spcs_na_service"
+SERVICE_NAME="spcs_na_service" # service_spec.yml and manifest.yml needs to agree with this name as it is the service and image name.
 DIR_NAME="./service"
 
 # make sure the target repository exists

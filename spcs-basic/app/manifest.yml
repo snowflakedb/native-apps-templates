@@ -1,8 +1,10 @@
+# For more information on creating manifest, go to https://docs.snowflake.com/en/developer-guide/native-apps/creating-manifest
 manifest_version: 1
 
 version:
-  name: v1
-  label: Version One
+  name: Dev
+  label: "Dev Version"
+  comment: "Default version used for development. Override for actual deployment."
 
 configuration:
   log_level: INFO

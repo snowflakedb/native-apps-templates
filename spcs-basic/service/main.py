@@ -9,6 +9,11 @@ GET_PATHS = ('/', '/index.html', '/healthcheck')
 POST_PATHS = ('/echo')
 
 class handler(BaseHTTPRequestHandler):
+    """
+        Simple Python HTTP server that acts as both an ingress (GET)
+        and as a service function endpoint (POST)
+    """
+    
     def do_GET(self):
         """
         Returns an HTML page bundled with the server

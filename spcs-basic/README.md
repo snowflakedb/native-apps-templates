@@ -30,6 +30,8 @@ Deploy the app package and instance as such:
 snow app run
 ```
 
+> Application and Application Package have been automatically suffixed by their (local) user name.
+
 ## Setup the application
 
 When the application is opened for the first time, you will be prompted to grant the following account-level privileges to it:
