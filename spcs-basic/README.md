@@ -14,7 +14,7 @@ export SNOWFLAKE_DEFAULT_CONNECTION_NAME=<your connection name>
 The [service/](service/) directory contains a [Dockerfile](service/Dockerfile) that builds a
 simple Python server that responds to GET health checks, a GET for `/index.html`, as well as
 POSTing to `/echo` in the Snowflake External Function payload format. You can build it and
-push it to an image repository in your count like so:
+push it to an image repository in your container like so:
 
 ```sh
 ./build-and-push.sh
