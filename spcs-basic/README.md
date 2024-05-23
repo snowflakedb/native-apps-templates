@@ -9,7 +9,7 @@ default connection in your `config.toml` or by exporting the following environme
 export SNOWFLAKE_DEFAULT_CONNECTION_NAME=<your connection name>
 ```
 
-## Create image repository, build and push our local service image
+## Create image repository, build and push your local service image
 
 The [service/](service/) directory contains a [Dockerfile](service/Dockerfile) that builds a
 simple Python server that responds to GET health checks, a GET for `/index.html`, as well as
