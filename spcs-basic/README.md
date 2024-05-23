@@ -1,5 +1,13 @@
 # Instructions
 
+## Prerequisites
+
+1. Install Docker
+    - [Windows](https://docs.docker.com/desktop/install/windows-install/)
+    - [Mac](https://docs.docker.com/desktop/install/mac-install/)
+    - [Linux](https://docs.docker.com/desktop/install/linux-install/)
+
+
 ## Set your SnowCLI connection (optional)
 
 We use your default connection to connect to Snowflake and deploy the images / app. Set your
