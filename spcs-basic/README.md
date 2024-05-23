@@ -48,7 +48,7 @@ The `Activate` button invokes the `grant_callback` defined in the [manifest.yml]
 
 ## Launch the application
 
-Once all services and pools are created, you are able to launch the app by clicking on the `Launch App` button. A new window will be displayed with the URL provided by the `Service` and `Endpoint` defined in the `default_web_endpoint` in the [manifest.yml](app/manifest.yml).
+Once all services and pools are created, you will be able to launch the app by clicking on the `Launch App` button. A new window will be displayed with the URL provided by the `Service` and `Endpoint` defined in the `default_web_endpoint` in the [manifest.yml](app/manifest.yml).
 
 ## Test out the echo service
 
