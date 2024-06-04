@@ -38,7 +38,7 @@ Deploy the app package and instance as such:
 snow app run
 ```
 
-> Application and Application Package have been automatically suffixed by their (local) user name.
+> Take note of the name of the application, which is based on the name you chose when you initialized this project. The application object and package are, by default, automatically suffixed by your (local) user name (i.e. `$USER`). 
 
 ## Setup the application
 
