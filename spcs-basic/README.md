@@ -71,7 +71,7 @@ You should see the same text back (Hello world!).
 Your service and compute pool is costing you money. Make sure to clean up.
 
 ```sh
-snow sql -q "call spcs_na_$USER.setup.drop_service_and_pool()"
+snow sql -q "call <app name>.setup.drop_service_and_pool()"
 ```
 
 Optionally, you can remove the app + package altogether afterwards:
