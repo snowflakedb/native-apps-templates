@@ -61,7 +61,7 @@ Once all services and pools are created, you will be able to launch the app by c
 ## Test out the echo service
 
 ```sh
-snow sql -q "select spcs_na_$USER.services.echo('Hello world!')"
+snow sql -q "select <app name>.services.echo('Hello world!')"
 ```
 
 You should see the same text back (Hello world!).
