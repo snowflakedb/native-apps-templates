@@ -68,7 +68,7 @@ You should see the same text back (Hello world!).
 
 ## Clean up
 
-Your service and compute pool is costing you money. Make sure to clean up.
+You can stop the service and drop the compute pool without dropping the application by running the following statement:
 
 ```sh
 snow sql -q "call <app name>.setup.drop_service_and_pool()"
@@ -77,5 +77,6 @@ snow sql -q "call <app name>.setup.drop_service_and_pool()"
 Optionally, you can remove the app + package altogether afterwards:
 
 ```sh
-snow app teardown
+snow app teardown --cascade
 ```
+> Version `2.4.0+` of Snowflake CLI should be installed in order to execute `--cascate` command.
