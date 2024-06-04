@@ -6,8 +6,9 @@ This repository contains [Snowflake Native App](https://docs.snowflake.com/en/de
 ## Available Templates
 There are three available templates in the current version of this repository:
 1. [basic](./basic/README.md)
-2. [streamlit-python](./streamlit-python/README.md)
-3. [streamlit-java](./streamlit-java/README.md)
+2. [spcs-basic](./spcs-basic/README.md)
+3. [streamlit-python](./streamlit-python/README.md)
+4. [streamlit-java](./streamlit-java/README.md)
 
 For a detailed understanding of the templates, please refer to the README.md within each template. 
 
