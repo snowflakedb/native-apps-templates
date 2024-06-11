@@ -13,7 +13,7 @@ GRANT USAGE ON SCHEMA core TO APPLICATION ROLE app_public;
 CREATE or REPLACE FUNCTION core.add(num1 DOUBLE, num2 DOUBLE)
   RETURNS DOUBLE
   LANGUAGE JAVASCRIPT
-  AS 'return num1 + num2;';
+  AS 'return NUM1 + NUM2;';
 
 -- 4. Grant appropriate privileges over these objects to your application roles. 
 GRANT USAGE ON FUNCTION core.add(DOUBLE, DOUBLE) TO APPLICATION ROLE app_public;
