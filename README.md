@@ -30,4 +30,4 @@ Please refer to the [Snowflake CLI Documentation](https://docs.snowflake.com/en/
 
 ### Note
 You can also clone this repository manually using `git` and simply modify the template you would like to use.
-Note that any jinja files in this repository will not be rendered to their intended file type if using this option. 
+Note that any files in this repository containing Jinja template tags will not be rendered to their intended file type if using this option. 
