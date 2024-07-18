@@ -79,4 +79,4 @@ Optionally, you can remove the app + package altogether afterwards:
 ```sh
 snow app teardown --cascade
 ```
-> Version `2.4.0+` of Snowflake CLI should be installed in order to execute `--cascate` command.
+> Version `2.4.0+` of Snowflake CLI should be installed in order to execute `--cascade` command.
