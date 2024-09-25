@@ -4,8 +4,7 @@ definition_version: 2
 entities:
   pkg:
     type: application package
-    identifier: <% fn.concat_ids('{{project_name}}', '_pkg', ctx.env.suffix) %>
-    stage: app_src.stage
+    identifier: <% fn.concat_ids('{{project_name}}_pkg', ctx.env.suffix) %>
     manifest: app/manifest.yml
     artifacts:
       - src: app/*
